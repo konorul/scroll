@@ -42,3 +42,7 @@ body {
     opacity: 80%;
     pointer-events: none;
 }
+
+.hidden {
+    opacity: 0 !important;
+}
