@@ -50,6 +50,8 @@ body {
 }
 
 
+
+
 .feed_fake {
     width: 100vw;
     height: 300vw;
@@ -63,4 +65,16 @@ body {
 
 .hidden {
     opacity: 0 !important;
+}
+
+
+.bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 13.333333333vw;
+    background: url(img/bar.jpg);
+    background-size: 100%;
+    z-index: 99999999;
 }
