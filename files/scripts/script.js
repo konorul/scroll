@@ -1,6 +1,8 @@
 let fakeFeed = document.querySelector(".feed_fake")
 let body = document.querySelector(".container")
-// let pixelRatio = window.devicePixelRatio
+
+let pixelRatio = window.devicePixelRatio
+console.log(pixelRatio)
 
 // container.style.transform = `scale(${pixelRatio})`;
 
