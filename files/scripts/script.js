@@ -14,12 +14,12 @@ body.onscroll = function(){
     scrollPosition = body.scrollTop
     console.log(scrollPosition)
 
-    if (scrollPosition >= 360) {
+    if (scrollPosition >= 420) {
         console.log("ALERT")
         fakeFeed.classList.add("hidden")
     }
 
-    if (scrollPosition <= 360) {
+    if (scrollPosition <= 420) {
         console.log("ALERT")
         fakeFeed.classList.remove("hidden")
     }

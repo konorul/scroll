@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-    height: 720px;
-    width: 360px;
+    height: 100vh;
+    width: 100vw;
     position: fixed;
     left: 0;
     top: 0;
@@ -18,29 +18,47 @@ body {
 }
 
 .head {
-    width: 360px;
-    height: 360px;
-    background: pink;
+    width: 100vw;
+    height: 122vw;
+    background: url(img/head.jpg);
+    background-size: 100%;
 }
 .banner {
-    width: 360px;
-    height: 360px;
+    width: 100vw;
+    height: 420px;
     background: green;
+    background-size: 100%;
+    overflow: hidden;
+
 }
+
+.banner video {
+    width: 100vw;
+    /* height: 400px; */
+    background-size: 100%;
+    position: relative;
+    top: -200px;
+}
+
+
 .feed {
-    width: 360px;
-    height: 900px;
-    background: blue;
+    width: 100vw;
+    height: 805vw;
+    background: url(img/feed.jpg);
+    background-size: 100%;
+
 }
 
 
 .feed_fake {
+    width: 100vw;
     height: 250px;
     position: fixed;
-    top: 360px;
-    background: purple;
-    opacity: 80%;
+    top: 121vw;
     pointer-events: none;
+    background: url(img/feed.jpg);
+    background-size: 100%;
+
 }
 
 .hidden {
