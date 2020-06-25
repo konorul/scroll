@@ -1,3 +1,10 @@
+.container {
+    width: 360px;
+    height: 640px;
+    background: gray;
+    overflow: scroll;
+}
+
 .head {
     width: 360px;
     height: 360px;
@@ -10,11 +17,15 @@
 }
 .feed {
     width: 360px;
-    height: 900px;
+    height: 9900px;
     background: blue;
 }
+
+/* 
 .feed_fake {
-    position: fixed;
-    top: 360px;
+    height: 300px;
+    position: absolute;
+    bottom: 100px;
     background: purple;
-}
+    opacity: 50%;
+} */
