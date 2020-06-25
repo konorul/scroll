@@ -52,7 +52,7 @@ body {
 
 .feed_fake {
     width: 100vw;
-    height: 250px;
+    height: 300vw;
     position: fixed;
     top: 121vw;
     pointer-events: none;
