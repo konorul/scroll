@@ -10,8 +10,7 @@ console.log(pixelRatio)
 
 let scrollPosition = 0
 
-body.onscroll = function(){
-    scrollPosition = window.scrollY
-    console.log("scroll")
-    console.log(scrollPosition)
+container.onscroll = function(){
+    scrollPosition = container.scrollTop
+        console.log(scrollPosition)
 };

@@ -3,6 +3,7 @@
     height: 640px;
     background: gray;
     overflow: scroll;
+    position: fixed;
 }
 
 .head {
