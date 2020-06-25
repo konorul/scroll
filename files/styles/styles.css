@@ -1,10 +1,15 @@
 
 body {
     background: black;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .container {
-    height: 640px;
+    height: 720px;
     width: 360px;
     position: fixed;
     left: 0;
@@ -28,11 +33,12 @@ body {
     background: blue;
 }
 
-/* 
+
 .feed_fake {
-    height: 300px;
-    position: absolute;
-    bottom: 100px;
+    height: 250px;
+    position: fixed;
+    top: 360px;
     background: purple;
-    opacity: 50%;
-} */
+    opacity: 80%;
+    pointer-events: none;
+}
